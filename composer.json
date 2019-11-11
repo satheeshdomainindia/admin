@@ -1,0 +1,28 @@
+{
+    "name": "laravelzone/admin",
+    "description": "Laravel Admin Package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Satheesh",
+            "email": "satheesh@dreamstudio.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+         "laravelzone/auth": "@dev"        
+    },
+    "autoload": {
+        "psr-4": {
+            "laravelzone\\admin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "laravelzone\\admin\\AdminServiceProvider"
+            ]
+        }
+    }
+}
